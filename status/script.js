@@ -30,7 +30,7 @@ $(document).ready(function () {
 		},
 		github: {
 			org: 'christronyxyocum',
-			repo: 'status'
+			repo: 'christronyxyocum.github.io'
 		},
 		theme: 'dark'
 	};
