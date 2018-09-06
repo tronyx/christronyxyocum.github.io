@@ -180,7 +180,7 @@ $(document).ready(function () {
 	};
 
 	var get_today = new Date();
-	get_today.setDate(get_today.getDate() - 28);
+	get_today.setDate(get_today.getDate() - 30.5);
 	var scope_date = get_today.toISOString();
 
 	$.getJSON('https://api.github.com/repos/' + config.github.org + '/' + config.github.repo + '/issues?state=all&since=' + scope_date).done(GitHubEntry);
