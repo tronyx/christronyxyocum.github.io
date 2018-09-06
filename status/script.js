@@ -19,7 +19,9 @@ $(document).ready(function () {
 				// Unifi
 				'm780859984-0a189508ba2f5031d7cb774f',
 				// NZBGet
-				'm780859983-53a0ee3b3e1c31f61ed4f10f'
+				'm780859983-53a0ee3b3e1c31f61ed4f10f',
+				/// Ombi
+				'm780936714-993b454514d576ff6286eb8e'
 			],
 			logs: 1,
 			response_times: 1,
