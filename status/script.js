@@ -128,7 +128,7 @@ $(document).ready(function () {
 				scales: {
 					yAxes: [{
 						ticks: {
-							fontColor: '#ddd'
+							fontColor: '#ffcc00'
 						}
 					}],
 					xAxes: [{
