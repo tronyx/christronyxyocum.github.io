@@ -122,13 +122,13 @@ $(document).ready(function () {
 			options: {
 				legend: {
 					labels: {
-						fontColor: '#ddd'
+						fontColor: '#ffcc00'
 					}
 				},
 				scales: {
 					yAxes: [{
 						ticks: {
-							fontColor: '#ffcc00'
+							fontColor: '#ddd'
 						}
 					}],
 					xAxes: [{
