@@ -116,8 +116,8 @@ $(document).ready(function () {
 				datasets: [{
 					label: 'Response Time (ms)',
 					borderColor: "#ffe066",
-				borderWidth: "3",
-				pointStyle: "star",
+					borderWidth: 3,
+					pointStyle: 'star',
 				backgroundColor: "#ffdf80",
 					data: [],
 				}]
