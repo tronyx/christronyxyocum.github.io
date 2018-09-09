@@ -118,7 +118,7 @@ $(document).ready(function () {
 					borderColor: "#ffe066",
 					borderWidth: 3,
 					pointStyle: 'star',
-				backgroundColor: "#ffdf80",
+				backgroundColor: "#b38600",
 					data: [],
 				}]
 			},
