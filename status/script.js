@@ -122,7 +122,7 @@ $(document).ready(function () {
 			options: {
 				legend: {
 					labels: {
-						fontColor: '#ffcc00'
+						fontColor: '#ddd'
 					}
 				},
 				scales: {
