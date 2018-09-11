@@ -119,12 +119,12 @@ $(document).ready(function () {
 				labels: [],
 				datasets: [{
 					label: 'Response Time (ms)',
-					borderColor: "rgb(230, 184, 0)",
+					borderColor: "rgb(255, 214, 51)",
 					borderWidth: 3,
 					pointStyle: 'circle',
 					pointRadius: 3,
 					pointHoverRadius: 5,
-				backgroundColor: "rgb(230, 184, 0,0.3)",
+				backgroundColor: "rgb(255, 214, 51,0.3)",
 					data: [],
 				}]
 			},
@@ -138,6 +138,9 @@ $(document).ready(function () {
 					yAxes: [{
 						ticks: {
 							fontColor: '#ddd'
+						},
+						gridLines: {
+							color: '#ddd'
 						}
 					}],
 					xAxes: [{
@@ -145,6 +148,9 @@ $(document).ready(function () {
 						ticks: {
 							display: false,
 							scaleFontSize: 0
+						},
+						gridLines: {
+							color: '#ddd'
 						}
 					}]
 				}
