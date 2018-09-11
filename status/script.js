@@ -126,6 +126,7 @@ $(document).ready(function () {
 					pointBorderWidth: 2,
 					pointRadius: 5,
 					pointHoverRadius: 7,
+					pointHoverBackgroundColor: "rgba(255, 214, 51)",
 				backgroundColor: "rgb(255, 214, 51,0.5)",
 					data: [],
 				}]
@@ -142,7 +143,7 @@ $(document).ready(function () {
 							fontColor: '#ddd'
 						},
 						gridLines: {
-							color: 'rgb(112,112,112)'
+							color: "rgb(112,112,112)"
 						}
 					}],
 					xAxes: [{
@@ -152,7 +153,7 @@ $(document).ready(function () {
 							scaleFontSize: 0
 						},
 						gridLines: {
-							color: 'rgb(112,112,112)'
+							color: "rgb(112,112,112)"
 						}
 					}]
 				}
