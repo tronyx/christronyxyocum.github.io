@@ -140,7 +140,7 @@ $(document).ready(function () {
 							fontColor: '#ddd'
 						},
 						gridLines: {
-							color: 'rgb(168,168,168)'
+							color: 'rgb(112,112,112)'
 						}
 					}],
 					xAxes: [{
@@ -150,7 +150,7 @@ $(document).ready(function () {
 							scaleFontSize: 0
 						},
 						gridLines: {
-							color: 'rgb(168,168,168)'
+							color: 'rgb(112,112,112)'
 						}
 					}]
 				}
