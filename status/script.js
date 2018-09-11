@@ -122,7 +122,7 @@ $(document).ready(function () {
 					lineTension: 0,
 					borderColor: "rgb(255, 214, 51)",
 					borderWidth: 5,
-					pointStyle: 'circle',
+					pointStyle: 'triangle',
 					pointBorderWidth: 1,
 					pointRadius: 5,
 					pointHoverRadius: 7,
