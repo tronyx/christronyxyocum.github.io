@@ -124,7 +124,7 @@ $(document).ready(function () {
 					pointStyle: 'circle',
 					pointRadius: 3,
 					pointHoverRadius: 5,
-				backgroundColor: "rgb(255, 214, 51,0.3)",
+				backgroundColor: "rgb(255, 214, 51,0.5)",
 					data: [],
 				}]
 			},
