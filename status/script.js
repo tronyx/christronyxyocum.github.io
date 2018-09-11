@@ -23,7 +23,9 @@ $(document).ready(function () {
 				// Ombi
 				'm780936714-993b454514d576ff6286eb8e',
 				// Lidarr
-				'm780959481-35baf0f704dfddc04e3f67ea'
+				'm780959481-35baf0f704dfddc04e3f67ea',
+				// Guacamole
+				'm780959492-eb7014ed04794d49a4f60833'
 			],
 			logs: 1,
 			response_times: 1,
