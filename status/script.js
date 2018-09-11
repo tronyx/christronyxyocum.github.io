@@ -123,8 +123,8 @@ $(document).ready(function () {
 					borderWidth: 5,
 					pointStyle: 'circle',
 					pointBorderWidth: 1,
-					pointRadius: 3,
-					pointHoverRadius: 5,
+					pointRadius: 5,
+					pointHoverRadius: 7,
 				backgroundColor: "rgb(255, 214, 51,0.5)",
 					data: [],
 				}]
