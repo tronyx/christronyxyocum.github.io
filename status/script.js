@@ -118,9 +118,9 @@ $(document).ready(function () {
 					borderColor: "rgb(204, 122, 0)",
 					borderWidth: 3,
 					pointStyle: 'circle',
-					pointRadius: 3,
-					pointHoverRadius: 5,
-				backgroundColor: "rgb(255, 173, 51)",
+					pointRadius: 5,
+					pointHoverRadius: 7,
+				backgroundColor: "rgb(255, 214, 153)",
 					data: [],
 				}]
 			},
