@@ -115,12 +115,12 @@ $(document).ready(function () {
 				labels: [],
 				datasets: [{
 					label: 'Response Time (ms)',
-					borderColor: "rgb(204, 122, 0)",
-					borderWidth: 3,
+					borderColor: "rgb(255, 204, 0)",
+					borderWidth: 5,
 					pointStyle: 'circle',
 					pointRadius: 5,
 					pointHoverRadius: 7,
-				backgroundColor: "rgb(255, 214, 153)",
+				backgroundColor: "rgb(255, 230, 128,0)",
 					data: [],
 				}]
 			},
