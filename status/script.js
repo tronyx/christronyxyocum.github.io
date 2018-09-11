@@ -118,7 +118,9 @@ $(document).ready(function () {
 					borderColor: "#e68a00",
 					borderWidth: 3,
 					pointStyle: 'circle',
-				backgroundColor: "#ffad33",
+					pointRadius: 3,
+					pointHoverRadius: 5,
+				backgroundColor: "rgb(255, 173, 51)",
 					data: [],
 				}]
 			},
