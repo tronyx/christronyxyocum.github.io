@@ -20,8 +20,10 @@ $(document).ready(function () {
 				'm780859984-0a189508ba2f5031d7cb774f',
 				// NZBGet
 				'm780859983-53a0ee3b3e1c31f61ed4f10f',
-				/// Ombi
-				'm780936714-993b454514d576ff6286eb8e'
+				// Ombi
+				'm780936714-993b454514d576ff6286eb8e',
+				// Lidarr
+				'm780959481-35baf0f704dfddc04e3f67ea'
 			],
 			logs: 1,
 			response_times: 1,
