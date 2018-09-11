@@ -118,7 +118,7 @@ $(document).ready(function () {
 					borderColor: "rgb(230, 184, 0)",
 					borderWidth: 3,
 					pointStyle: 'circle',
-					pointRadius: 5,
+					pointRadius: 3,
 					pointHoverRadius: 5,
 				backgroundColor: "rgb(230, 184, 0,0.5)",
 					data: [],
