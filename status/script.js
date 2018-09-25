@@ -25,7 +25,9 @@ $(document).ready(function () {
 				// Lidarr
 				'm780959481-35baf0f704dfddc04e3f67ea',
 				// Guacamole
-				'm780959492-eb7014ed04794d49a4f60833'
+				'm780959492-eb7014ed04794d49a4f60833',
+				// Library
+				'm781021009-c295eec84a7cc279d8f94e2a'
 			],
 			logs: 1,
 			response_times: 1,
