@@ -27,7 +27,9 @@ $(document).ready(function () {
 				// Guacamole
 				'm780959492-eb7014ed04794d49a4f60833',
 				// Library
-				'm781021009-c295eec84a7cc279d8f94e2a'
+				'm781021009-c295eec84a7cc279d8f94e2a',
+				// Blog
+				'm781041061-beaf212040de22d2a29446df'
 			],
 			logs: 1,
 			response_times: 1,
