@@ -9,7 +9,7 @@ $(document).ready(function () {
 				// Sonarr
 				'm780859962-c594da8743e0d66f9f35f962',
 				// TronFlix
-				'm779766620-d8fad6b17fb985083c212ee8',
+				'm781067211-fb3f87cd75a9a8ef42a464f6',
 				// Tautulli
 				'm780859975-52dbc17389c218f7d575386a',
 				// Radarr
