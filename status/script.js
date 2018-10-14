@@ -29,7 +29,9 @@ $(document).ready(function () {
 				// Library
 				'm781021009-c295eec84a7cc279d8f94e2a',
 				// Blog
-				'm781041061-beaf212040de22d2a29446df'
+				'm781041061-beaf212040de22d2a29446df',
+				// ruTorrent
+				'm781150655-a5512eaa1739ec87124ef427'
 			],
 			logs: 1,
 			response_times: 1,
