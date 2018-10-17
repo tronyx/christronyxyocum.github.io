@@ -37,7 +37,7 @@ $(document).ready(function () {
 				// NZBHydra2
 				'm781178944-0c1f9bc6ad40d1c9971b5c90',
 				// Logarr
-				'm781178958-5d7c777d7c289431a085ede8'.
+				'm781178958-5d7c777d7c289431a085ede8',
 				// Monitorr
 				'm781178965-e46146ca869fd9f9082b4332',
 				// Jackett
