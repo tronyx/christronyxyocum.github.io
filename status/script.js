@@ -32,8 +32,6 @@ $(document).ready(function () {
 				'm781041061-beaf212040de22d2a29446df',
 				// ruTorrent
 				'm781150655-a5512eaa1739ec87124ef427',
-				// NZBHydra
-				'm781178941-12a07225aff784229e456469',
 				// NZBHydra2
 				'm781178944-0c1f9bc6ad40d1c9971b5c90',
 				// Logarr
