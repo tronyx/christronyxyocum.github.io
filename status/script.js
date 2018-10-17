@@ -39,7 +39,17 @@ $(document).ready(function () {
 				// Logarr
 				'm781178958-5d7c777d7c289431a085ede8'.
 				// Monitorr
-				'm781178965-e46146ca869fd9f9082b4332'
+				'm781178965-e46146ca869fd9f9082b4332',
+				// Jackett
+				'm781178984-75f1dee9222eae0f06efcc64',
+				// Grafana
+				'm781178997-b7836fc5a27f230eacc59bdd',
+				// Netdata
+				'm781179001-bee769d9ec6aaf8b582c1d4c',
+				// PiHole
+				'm781179013-21de7ef93b7450866b1887e5',
+				// Portainer
+				'm781179024-d443e4f036ba094821640158'
 			],
 			logs: 1,
 			response_times: 1,
