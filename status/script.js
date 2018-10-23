@@ -95,8 +95,6 @@ $(document).ready(function () {
 	}
 
 	function _uptimeRobotSetStatus(check) {
-		//check.class = check.status === 0 ? 'label-paused';
-		//check.text = check.status === 0 ? 'test paused';
 		check.class = check.status === 2 ? 'label-success' : 'label-danger';
 		check.text = check.status === 2 ? 'Operational' : 'Major Outage';
 		if (check.status !== 2 && !check.lasterrortime) {
@@ -111,8 +109,8 @@ $(document).ready(function () {
 			check.text = 'Degraded Performance';
 		}
 		if (check.status === 0) {
-			check.class = 'label-paused';
-			check.text = 'Test Paused';
+			check.class = 'label-success';
+			check.text = 'Operational';
 		}
 		return check;
 	}
