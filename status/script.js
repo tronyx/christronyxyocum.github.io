@@ -77,7 +77,6 @@ $(document).ready(function () {
 		'investigating': 'investigating',
 		'major outage': 'outage',
 		'degraded performance': 'degraded',
-		'test paused': 'paused',
 	};
 
 	const monitors = config.uptimerobot.api_keys;
