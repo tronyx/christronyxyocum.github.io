@@ -295,10 +295,13 @@ body {
   background-color: #43ac6a
 }
 .badge.label-warning {
-  background-color:#f0a724
+  background-color: #f0a724
 }
 .badge.label-danger {
-  background-color:#f04124
+  background-color: #f04124
+}
+.badge.label-paused {
+  background-color: #707070
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
