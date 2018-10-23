@@ -77,7 +77,7 @@ $(document).ready(function () {
 		'investigating': 'investigating',
 		'major outage': 'outage',
 		'degraded performance': 'degraded',
-		'test paused': 'paused',
+		//'test paused': 'paused',
 	};
 
 	const monitors = config.uptimerobot.api_keys;
@@ -95,8 +95,8 @@ $(document).ready(function () {
 	}
 
 	function _uptimeRobotSetStatus(check) {
-		check.class = check.status === 0 ? 'label-paused';
-		check.text = check.status === 0 ? 'test paused';
+		//check.class = check.status === 0 ? 'label-paused';
+		//check.text = check.status === 0 ? 'test paused';
 		check.class = check.status === 2 ? 'label-success' : 'label-danger';
 		check.text = check.status === 2 ? 'operational' : 'major outage';
 		if (check.status !== 2 && !check.lasterrortime) {
