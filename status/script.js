@@ -111,7 +111,7 @@ $(document).ready(function () {
 		}
 		if (check.status === 0) {
 			check.class = 'label-success';
-			check.text = 'Operational';
+			check.text = 'Test Paused';
 		}
 		return check;
 	}

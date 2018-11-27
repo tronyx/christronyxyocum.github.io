@@ -300,6 +300,9 @@ body {
 .badge.label-danger {
   background-color: #f04124
 }
+.badge.label-paused {
+  background-color: #707070
+}
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-weight: 300
