@@ -3,51 +3,53 @@ $(document).ready(function () {
 		uptimerobot: {
 			api_keys: [
 				// Home RDP
-				//'m779766623-4efbb27a2d4259a28a2ca25f',
+				'm779766623-4efbb27a2d4259a28a2ca25f',
 				// Plex
 				'm779783111-af1360b22e626ea6f0ae220e',
 				// Sonarr
-				//'m780859962-c594da8743e0d66f9f35f962',
+				'm780859962-c594da8743e0d66f9f35f962',
 				// TronFlix
 				'm781067211-fb3f87cd75a9a8ef42a464f6',
 				// Tautulli
-				//'m780859975-52dbc17389c218f7d575386a',
+				'm780859975-52dbc17389c218f7d575386a',
 				// Radarr
-				//'m780859973-7036c79e7b1f71bf613b8f45',
+				'm780859973-7036c79e7b1f71bf613b8f45',
 				// GitLab
-				//'m780859976-496a1fbd6e634e68b29eab5b',
+				'm780859976-496a1fbd6e634e68b29eab5b',
 				// Unifi
-				//'m780859984-0a189508ba2f5031d7cb774f',
+				'm780859984-0a189508ba2f5031d7cb774f',
+				// NVR
+				'm781516452-af1b7dd2132a4fd8683b3d28',
 				// NZBGet
-				//'m780859983-53a0ee3b3e1c31f61ed4f10f',
+				'm780859983-53a0ee3b3e1c31f61ed4f10f',
 				// Ombi
 				'm780936714-993b454514d576ff6286eb8e',
 				// Lidarr
-				//'m780959481-35baf0f704dfddc04e3f67ea',
+				'm780959481-35baf0f704dfddc04e3f67ea',
 				// Guacamole
-				//'m780959492-eb7014ed04794d49a4f60833',
+				'm780959492-eb7014ed04794d49a4f60833',
 				// Library
 				'm781021009-c295eec84a7cc279d8f94e2a',
 				// Blog
 				'm781041061-beaf212040de22d2a29446df',
 				// ruTorrent
-				//'m781150655-a5512eaa1739ec87124ef427',
+				'm781150655-a5512eaa1739ec87124ef427',
 				// NZBHydra2
-				//'m781178944-0c1f9bc6ad40d1c9971b5c90',
+				'm781178944-0c1f9bc6ad40d1c9971b5c90',
 				// Logarr
-				//'m781178958-5d7c777d7c289431a085ede8',
+				'm781178958-5d7c777d7c289431a085ede8',
 				// Monitorr
-				//'m781178965-e46146ca869fd9f9082b4332',
+				'm781178965-e46146ca869fd9f9082b4332',
 				// Jackett
-				//'m781178984-75f1dee9222eae0f06efcc64',
+				'm781178984-75f1dee9222eae0f06efcc64',
 				// Grafana
-				//'m781178997-b7836fc5a27f230eacc59bdd',
+				'm781178997-b7836fc5a27f230eacc59bdd',
 				// Netdata
-				//'m781179001-bee769d9ec6aaf8b582c1d4c',
+				'm781179001-bee769d9ec6aaf8b582c1d4c',
 				// PiHole
-				//'m781179013-21de7ef93b7450866b1887e5',
+				'm781179013-21de7ef93b7450866b1887e5',
 				// Portainer
-				//'m781179024-d443e4f036ba094821640158'
+				'm781179024-d443e4f036ba094821640158'
 			],
 			logs: 1,
 			response_times: 1,
