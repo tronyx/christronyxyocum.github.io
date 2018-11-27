@@ -110,7 +110,7 @@ $(document).ready(function () {
 			check.text = 'Degraded Performance';
 		}
 		if (check.status === 0) {
-			check.class = 'label-success';
+			check.class = 'label-paused';
 			check.text = 'Test Paused';
 		}
 		return check;
