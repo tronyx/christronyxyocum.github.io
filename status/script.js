@@ -216,7 +216,7 @@ $(document).ready(function () {
 
 		if (!$('#panel').data('incident')) {
 			$('#panel').attr('class', (status === 'operational' ? 'panel-success' : 'panel-warning') );
-			$('#paneltitle').html(status === 'operational' ? 'All systems are currently operational.' : 'One or more systems are inoperative');
+			$('#paneltitle').html(status === 'operational' || status === 'paused' ? 'All systems are currently operational.' : 'One or more systems are inoperative');
 		}
 
 		data.monitors.forEach(function (item) {
