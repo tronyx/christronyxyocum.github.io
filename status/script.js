@@ -216,7 +216,11 @@ $(document).ready(function () {
 
 		if (!$('#panel').data('incident')) {
 			$('#panel').attr('class', (status === 'operational' || status === 'paused' ? 'panel-success' : 'panel-warning') );
-			$('#paneltitle').html(status === 'operational' || status === 'paused' ? 'All systems are currently operational.' : 'One or more systems are inoperative');
+			$('#paneltitle').html(status === 'operational' || status === 'paused' ? 'All systems are currently operational.' : 'One or more systems are inoperative!');
+		}
+		if (!$('#panel').data('incident')) {
+			$('#panel').attr('class', (status === 'paused' ? 'panel-success' : 'panel-warning') );
+			$('#paneltitle').html(status === 'paused' ? 'One or more systems currently has its monitoring disabled.' : 'One or more systems are inoperative!');
 		}
 
 		data.monitors.forEach(function (item) {
