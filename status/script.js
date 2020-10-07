@@ -2,54 +2,66 @@ $(document).ready(function () {
 	var config = {
 		uptimerobot: {
 			api_keys: [
-				// Home RDP
-				'm779766623-4efbb27a2d4259a28a2ca25f',
-				// Plex
-				'm779783111-af1360b22e626ea6f0ae220e',
-				// Sonarr
-				'm780859962-c594da8743e0d66f9f35f962',
-				// TronFlix
-				'm781067211-fb3f87cd75a9a8ef42a464f6',
-				// Tautulli
-				'm780859975-52dbc17389c218f7d575386a',
-				// Radarr
-				'm780859973-7036c79e7b1f71bf613b8f45',
-				// GitLab
+				// Bitwarden
+				'm784986767-b09fdec58014307f2c2fd9a4',
+				// Chevereto
+				'm784986749-c92e5722b43c9cf39ead888f',
+				// Deluge
+				'm784310618-92aea3b1c0c5cb47692c9479',
+				// Filebrowser
+				'm784986777-93db4021c0ad719b62175e6a',
+				// Gitea
 				'm780859976-496a1fbd6e634e68b29eab5b',
-				// Unifi
-				'm780859984-0a189508ba2f5031d7cb774f',
-				// NVR
-				'm781516452-af1b7dd2132a4fd8683b3d28',
-				// NZBGet
-				'm780859983-53a0ee3b3e1c31f61ed4f10f',
-				// Ombi
-				'm780936714-993b454514d576ff6286eb8e',
-				// Lidarr
-				'm780959481-35baf0f704dfddc04e3f67ea',
-				// Guacamole
-				'm780959492-eb7014ed04794d49a4f60833',
-				// Library
-				'm781021009-c295eec84a7cc279d8f94e2a',
-				// Blog
-				'm781041061-beaf212040de22d2a29446df',
-				// ruTorrent
-				'm781150655-a5512eaa1739ec87124ef427',
-				// NZBHydra2
-				'm781178944-0c1f9bc6ad40d1c9971b5c90',
-				// Logarr
-				'm781178958-5d7c777d7c289431a085ede8',
-				// Monitorr
-				'm781178965-e46146ca869fd9f9082b4332',
-				// Jackett
-				'm781178984-75f1dee9222eae0f06efcc64',
 				// Grafana
 				'm781178997-b7836fc5a27f230eacc59bdd',
-				// Netdata
+				// Guacamole
+				'm780959492-eb7014ed04794d49a4f60833',
+				// Home RDP
+				'm779766623-4efbb27a2d4259a28a2ca25f',
+				// Jackett
+				'm781178984-75f1dee9222eae0f06efcc64',
+				// Library
+				'm781021009-c295eec84a7cc279d8f94e2a',
+				// Lidarr
+				'm780959481-35baf0f704dfddc04e3f67ea',
+				// MediaButler
+				'm784986781-610360b73fff9ab74b2b8079',
+				// Monitorr
+				'm781178965-e46146ca869fd9f9082b4332',
+				// Nagios
+				'm784986769-0487868fa386f985bf6d6570',
+				// NetData
 				'm781179001-bee769d9ec6aaf8b582c1d4c',
+				// Nextcloud
+				'm784986745-c2ab5b8dc905b9c89ed7c033',
+				// NZBGet
+				'm780859983-53a0ee3b3e1c31f61ed4f10f',
+				// NZBHydra2
+				'm781178944-0c1f9bc6ad40d1c9971b5c90',
+				// Ombi
+				'm780936714-993b454514d576ff6286eb8e',
 				// PiHole
 				'm781179013-21de7ef93b7450866b1887e5',
-				// Portainer
-				'm781179024-d443e4f036ba094821640158'
+				// Plex
+				'm779783111-af1360b22e626ea6f0ae220e',
+				// Plex Alt Port
+				'm783448372-d97f27176e658034d71db014',
+				// Plex Port
+				'm781867553-6ccb2c07ca1fc9bac6b48e05',
+				// Radarr
+				'm780859973-7036c79e7b1f71bf613b8f45',
+				// Sonarr
+				'm780859962-c594da8743e0d66f9f35f962',
+				// Status
+				'm781179036-b72214bbd118460ace5e399f',
+				// Tautulli
+				'm780859975-52dbc17389c218f7d575386a',
+				// TheLounge
+				'm783592879-c1aec9ce64e403e84ca2a28d',
+				// TronFlix
+				'm781067211-fb3f87cd75a9a8ef42a464f6',
+				// xBackBone
+				'm784986746-29c6b68631b25d4759352834'
 			],
 			logs: 1,
 			response_times: 1,
